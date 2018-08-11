@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-container-desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="nav-container-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14,16 L47,16 C48.1045695,16 49,16.8954305 49,18 L49,41 L12,41 L12,18 C12,16.8954305 12.8954305,16 14,16 Z" id="Rectangle-2" fill-opacity="0.3" fill="#000000"></path>
+        <path d="M10,41 L51,41 C52.1045695,41 53,41.8954305 53,43 L53,44 L8,44 L8,43 C8,41.8954305 8.8954305,41 10,41 Z" id="Rectangle-2" fill-opacity="0.3" fill="#000000" transform="translate(30.500000, 42.500000) scale(1, -1) translate(-30.500000, -42.500000) "></path>
+        <rect id="Rectangle-3" fill-opacity="0.2" fill="#000000" x="14" y="18" width="33" height="21"></rect>
+    </g>
+</svg>
