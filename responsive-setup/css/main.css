@@ -18,7 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   line-height: 1;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgba(0, 0, 0, 0.10);
 }
 
 ol, ul {
@@ -50,7 +50,7 @@ table {
   border-color: rgba(0, 0, 0, 0.10);
   border-style: solid;
   border-width: 0px 2px 0px 2px;
-  background: #f5f5f5;
+  background: #fafafa;
   background-image: url('../img/section-desktop.svg');
   background-position: 12px 16px;
   background-size: 15px;
