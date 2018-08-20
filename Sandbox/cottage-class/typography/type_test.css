@@ -86,7 +86,7 @@ p {
 }
 
 p.small {
-  font-size: .9rem;
+  font-size: .88rem;
 }
 
 @media (min-width:576px) {
