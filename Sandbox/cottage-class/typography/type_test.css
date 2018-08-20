@@ -8,7 +8,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
-
 .container {
   width: 100%;
   padding-right: 20px;
@@ -32,9 +31,8 @@ body {
 }
 
 .tc-black-50 {
-color: rgba(33,33,33,0.50);
+  color: rgba(33, 33, 33, 0.50);
 }
-
 
 /* mobile first - outputs a body text of 14px*/
 
@@ -112,6 +110,7 @@ p.small {
     font-size: 3.4rem;
   }
 }
+
 /* desktop - outputs a body text of 16px */
 
 @media (min-width:992px) {
@@ -119,11 +118,11 @@ p.small {
     max-width: 960px;
   }
 }
+
 /* desktop hd - outputs a body text of 16px */
+
 @media (min-width:1200px) {
   .container {
     max-width: 1140px
   }
-}
-
 }
