@@ -8,6 +8,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
+/* Reset End */
+
+
+/* Mobile Portrait Setup */
 .container {
   max-width: none;
   padding-right: 20px;
@@ -34,7 +38,7 @@ body {
   color: rgba(33, 33, 33, 0.50);
 }
 
-/* mobile first - outputs a body text of 14px*/
+/* mobile first - outputs a body text of 14px */
 
 html {
   font-size: .875rem;
@@ -90,7 +94,7 @@ p.small {
 }
 
 
-/* mobile portrait */
+/* mobile landscape - outputs a body text of 14px */
 
 @media screen and (min-width:576px) {
   .container {
@@ -130,8 +134,5 @@ p.small {
   }
   html {
     font-size: 1.06rem;
-  }
-  h1.display {
-    font-size: 3.5rem;
   }
 }
