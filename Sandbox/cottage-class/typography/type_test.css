@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-bottom: 1px;
   margin-right: auto;
   margin-left: auto;
-  background: #fff;
+  background-color: #fff;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  background: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .tc-black-50 {
@@ -90,7 +90,7 @@ p.small {
 }
 
 
-
+/* mobile portrait */
 
 @media screen and (min-width:576px) {
   .container {
@@ -126,14 +126,12 @@ p.small {
 
 @media screen and (min-width:1200px) {
   .container {
-    max-width: 1140px
+    max-width: 1140px;
   }
-}
-
-
-@media screen and (max-width: 479px) {
-  .container {
-    max-width: none;
-    background-color: blue;
+  html {
+    font-size: 1.06rem;
+  }
+  h1.display {
+    font-size: 3.5rem;
   }
 }
