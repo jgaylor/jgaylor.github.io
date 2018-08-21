@@ -9,7 +9,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .container {
-  width: 100%;
+  display: block;
+  clear: none;
+  overflow: visible;
+  position: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
