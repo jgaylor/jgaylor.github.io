@@ -118,7 +118,7 @@ p.small {
   }
 }
 
-/* desktop - outputs a body text of 16px */
+/* desktop - font-size cascades */
 
 @media screen and (min-width:992px) {
   .container {
@@ -126,13 +126,10 @@ p.small {
   }
 }
 
-/* desktop hd - outputs a body text of 16px */
+/* desktop hd - font-size cascades */
 
 @media screen and (min-width:1200px) {
   .container {
     max-width: 1140px;
-  }
-  html {
-    font-size: 1.06rem;
   }
 }
