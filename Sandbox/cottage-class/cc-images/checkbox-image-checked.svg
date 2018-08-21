@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox-image-checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="checkbox-image-checked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Control">
+            <rect id="controls-/-checkbox" fill="#1F88E9" x="0" y="0" width="14" height="14" rx="2"></rect>
+            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" points="3.55193159 6.1874203 6.25641802 8.89190674 10.7291963 4.41912842"></polyline>
+        </g>
+    </g>
+</svg>
