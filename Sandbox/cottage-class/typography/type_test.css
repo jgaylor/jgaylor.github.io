@@ -89,13 +89,8 @@ p.small {
   font-size: .88rem;
 }
 
-@media screen and (max-width: 479px) {
-  .container {
-    max-width: none;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
+
+
 
 @media screen and (min-width:576px) {
   .container {
@@ -132,5 +127,13 @@ p.small {
 @media screen and (min-width:1200px) {
   .container {
     max-width: 1140px
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: none;
+    background-color: blue;
   }
 }
