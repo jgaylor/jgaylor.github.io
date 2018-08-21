@@ -89,7 +89,7 @@ p.small {
   font-size: .88rem;
 }
 
-@media screen and (max-width:0px) {
+@media screen and (min-width:0px) {
   .container {
     max-width: none;
     padding-right: 20px;
