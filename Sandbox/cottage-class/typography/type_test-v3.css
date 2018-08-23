@@ -5,7 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   vertical-align: baseline;
-  box-sizing: border-box;
+
 }
 
 /* Reset End */
@@ -22,6 +22,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
   color: rgba(33, 33, 33, 0.50);
 }
 
-/* mobile first - outputs a body text of 14px */
+/* mobile portrait - outputs a body text of 14px */
 
 html {
   font-size: .875rem;
@@ -96,6 +97,7 @@ p.small {
 }
 
 
+
 /* mobile landscape - outputs a body text of 14px */
 
 @media screen and (min-width:576px) {
@@ -125,6 +127,36 @@ p.small {
 @media screen and (min-width:992px) {
   .container {
     max-width: 960px;
+  }
+
+  h1 {
+    line-height: 1.2;
+    font-size: 2rem;
+  }
+
+  h2 {
+    line-height: 1.2;
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    line-height: 1.2;
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    line-height: 1.2;
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    line-height: 1.2;
+    font-size: 1.4rem;
+  }
+
+  h6 {
+    line-height: 1.2;
+    font-size: 1.3rem;
   }
 }
 
