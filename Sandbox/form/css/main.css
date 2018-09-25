@@ -67,3 +67,47 @@ h1 {
   background-repeat: no-repeat;
   }
 }
+
+.datepicker {
+}
+
+input[type='date'], input[type='time'] {
+    -webkit-appearance: none;
+}
+
+[type="date"] {
+  background:#fff url('../img/arrow.png')  92% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+[type="date"] {
+  font-size: 16px;
+  padding: 16px;
+  font-family: arial;
+  background-color: white;
+  box-shadow: none;
+  border-width: 3px;
+  border-color: green;
+}
+
+/* custom styles */
+body {
+  padding: 4em;
+  background: #e5e5e5;
+  font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+label {
+  display: block;
+}
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
