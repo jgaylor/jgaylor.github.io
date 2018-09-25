@@ -64,10 +64,7 @@ h1 {
   }
 }
 
-::-webkit-clear-button
-{
-    display: none; /* Hide the x button */
-}
+
 
 input {
   box-sizing: border-box;
@@ -81,6 +78,11 @@ input[type='date'], input[type='time'] {
     -webkit-appearance: none;
 }
 
+::-webkit-clear-button
+{
+    display: none; /* Hide the x button */
+}
+
 [type="date"] {
   background:#fff url('../img/arrow.svg')  92% 50% no-repeat ;
 }
@@ -91,6 +93,7 @@ input[type='date'], input[type='time'] {
   opacity: 0;
 }
 [type="date"] {
+  outline: 0;
   width: 200px;
   height: 50px;
   padding-left: 16px;
