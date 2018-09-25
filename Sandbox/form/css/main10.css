@@ -1,0 +1,105 @@
+/* Reset start */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset end */
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container {
+  display: block;
+  clear: none;
+  overflow: visible;
+  position: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 32px 32px 32px 32px;
+  border-color: rgba(0, 0, 0, 0.10);
+  border-style: solid;
+  background: white;
+  }
+}
+
+
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+input[type='date'], input[type='time'] {
+    -webkit-appearance: none;
+}
+
+::-webkit-clear-button
+{
+    display: none; /* Hide the x button */
+}
+
+[type="date"] {
+  background:#fff url('../img/arrow.svg')  92% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+[type="date"] {
+  outline: 0;
+  width: 200px;
+  height: 50px;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: arial;
+  background-color: white;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.10);
+}
