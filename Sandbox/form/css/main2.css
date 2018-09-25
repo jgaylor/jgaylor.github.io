@@ -68,7 +68,17 @@ h1 {
   }
 }
 
+.datepicker {
+}
 
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: none;
+  width: 190px;
+}
 
 input[type='date'], input[type='time'] {
     -webkit-appearance: none;
@@ -88,7 +98,6 @@ input[type='date'], input[type='time'] {
   padding: 16px;
   font-family: arial;
   background-color: white;
-  box-shadow: none;
   border-width: 3px;
   border-color: green;
 }
