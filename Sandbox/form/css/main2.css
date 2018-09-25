@@ -73,11 +73,12 @@ h1 {
 
 input {
   border: 1px solid #c4c4c4;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #fff;
   padding: 3px 5px;
   box-shadow: none;
   width: 190px;
+  height: 40px;
 }
 
 input[type='date'], input[type='time'] {
@@ -94,10 +95,10 @@ input[type='date'], input[type='time'] {
   opacity: 0;
 }
 [type="date"] {
+
   font-size: 16px;
-  padding: 16px;
   font-family: arial;
   background-color: white;
   border-width: 3px;
-  border-color: green;
+  border-color: gray;
 }
